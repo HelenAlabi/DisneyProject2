@@ -1,7 +1,8 @@
 
 import AllOgo from "../../assets/allLogo.png"
 import "./WhatsDisney.css"
-const WhatsDisney =(imageM, title)=>{
+import imageM from "../../assets/stars.jpeg"
+const WhatsDisney =( title)=>{
 
     return(
         <>
