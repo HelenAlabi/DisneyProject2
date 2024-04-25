@@ -1,6 +1,7 @@
 
 
 import "./More.css"
+import Star from "../../assets/stars.jpeg"
 
 const More =()=>{
 
@@ -9,7 +10,7 @@ const More =()=>{
            <div className= "more_sec">
                 <h2 id="moreW">More from Disney</h2>
                 <div className= "moreImage">
-                    <img src="../../src/assets/stars.jpeg" alt="" id="shopImage" />
+                    <img src={Star} alt="" id="shopImage" />
                     <div className= "buttonMore">
                           <h3 id="sign">Sign Up to hear about Disney news and more</h3>
                            <button id="subM">JOIN THE FAMILY</button>
