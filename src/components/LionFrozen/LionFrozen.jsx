@@ -1,6 +1,7 @@
 
 import "./LionFrozen.css"
-
+import LionKing from "../../assets/lionKing.png"
+import Frozen from "../../assets/frozenLadyP.png"
 
 const LionFrozen =()=>{
 
@@ -9,8 +10,8 @@ const LionFrozen =()=>{
           <div className= "LFsection">
                <h2 id="show">Show</h2>
                <div className= "lionF">
-                    <div><img src="../../src/assets/lionKing.png" alt="" /></div>
-                    <div><img src="../../src/assets/frozenLadyP.png" alt="" /></div>
+                    <div><img src= {LionKing}alt="" /></div>
+                    <div><img src={Frozen} alt="" /></div>
                </div>
           </div>
         </>

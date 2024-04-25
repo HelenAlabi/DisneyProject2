@@ -1,6 +1,13 @@
 
 
 import"./Footer.css"
+import Fbk from "../../assets/fbk.png"
+import Twit from "../../assets/twitt.png"
+import Ig from "../../assets/ig.png"
+import YouT from "../../assets/youTub.png"
+import DisL from "../../assets/disneyLogo.png"
+
+
 const Footer =()=>{
 
     return(
@@ -9,13 +16,13 @@ const Footer =()=>{
               <div className= "SMword">
                 <h2 id="fol">Follow Disney on:</h2>
               <div className= "SM">
-                  <a href=""><img src="../../src/assets/fbk.png" alt="" /></a>
-                  <a href=""><img src="../../src/assets/ig.png" alt="" /></a>
-                  <a href=""><img src="../../src/assets/twitt.png" alt="" /></a>
-                  <a href=""><img src="../../src/assets/youTub.png" alt="" /></a>
+                  <a href=""><img src={Fbk} alt="" /></a>
+                  <a href=""><img src={Ig} alt="" /></a>
+                  <a href=""><img src={Twit} alt="" /></a>
+                  <a href=""><img src={YouT} alt="" /></a>
               </div>
               </div>
-              <div id= "logoF"><img src="../../src/assets/disneyLogo.png" alt="" /></div>
+              <div id= "logoF"><img src={DisL} alt="" /></div>
               <div className= "series">
                 <p>Help</p>
                 <p>Sign Up</p>
